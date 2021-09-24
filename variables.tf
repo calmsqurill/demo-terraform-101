@@ -19,3 +19,7 @@ variable "num_webs" {
   description = "The number of servers to run"
   default     = "1"
 }
+
+variable "ami" {
+  description = "ami value"
+}
